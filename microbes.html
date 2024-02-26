@@ -1,0 +1,218 @@
+<html>
+    <h1>Prediction of Microbes</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <td>
+                    Serial No
+                </td>
+                <td>
+                    <input type="text" name="textserialno">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Solidity
+                </td>
+                <td>
+                    <input type="text" name="textsolidity">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Eccentricity
+                </td>
+                <td>
+                    <input type="text" name="texteccentricity">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    EquivDiameter
+                </td>
+                <td>
+                    <input type="text" name="textequidiameter">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Extrema
+                </td>
+                <td>
+                    <input type="text" name="textextrema">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    FilledArea
+                </td>
+                <td>
+                    <input type="text" name="textfilledarea">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Extent
+                </td>
+                <td>
+                    <input type="text" name="textextent">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Orientation
+                </td>
+                <td>
+                    <input type="text" name="textorientation">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    EulerNumber
+                </td>
+                <td>
+                    <input type="text" name="texteulernumber">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    BoundingBox1
+                </td>
+                <td>
+                    <input type="text" name="textboundingbox1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    BoundingBox2
+                </td>
+                <td>
+                    <input type="text" name="textboundingbox2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    BoundingBox3
+                </td>
+                <td>
+                    <input type="text" name="textboundingbox3">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    BoundingBox4
+                </td>
+                <td>
+                    <input type="text" name="textboundingbox4">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ConvexHull1
+                </td>
+                <td>
+                    <input type="text" name="textconvexhull1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ConvexHull2
+                </td>
+                <td>
+                    <input type="text" name="textconvexhull2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ConvexHull3
+                </td>
+                <td>
+                    <input type="text" name="textconvexhull3">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ConvexHull4
+                </td>
+                <td>
+                    <input type="text" name="textconvexhull4">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    MajorAxisLength
+                </td>
+                <td>
+                    <input type="text" name="textmajoraxislength">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    MinorAxisLength
+                </td>
+                <td>
+                    <input type="text" name="textminoraxislength">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Perimeter
+                </td>
+                <td>
+                    <input type="text" name="textperimeter">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ConvexArea
+                </td>
+                <td>
+                    <input type="text" name="textconvexarea">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Centroid1
+                </td>
+                <td>
+                    <input type="text" name="textcentroid1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Centroid2
+                </td>
+                <td>
+                    <input type="text" name="textcentroid2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Area
+                </td>
+                <td>
+                    <input type="text" name="textarea">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    raddi
+                </td>
+                <td>
+                    <input type="text" name="textraddi">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" class="btn btn-primary" name="buttonpredict">Predict</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    {{result}}
+                </td>
+            </tr>
+        </table>
+    </form>
+</html>
